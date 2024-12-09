@@ -1,0 +1,210 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+:root {
+    --background-color: #8e7373;
+    --content-color: #411717;
+    --accent-color-blue: #3ba7d5;
+    --accent-color-green: #69a332;
+
+    --text-header-color: #f5fbfc;
+    --text-normal-color: #000000;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--background-color);
+    background-image: url("/images/vecteezy_a-stack-of-books-on-a-table-with-red-lights_46249191.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.navbar {
+    background: center top repeat-x #4c0808;
+    padding: 34px 0 37px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6f3131;
+
+
+}
+
+li {
+    float: left;
+    /* border-right: 1px solid #bbb; */
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #bd7474;
+}
+
+.active {
+    background-color: #b01619;
+}
+
+.login-user {
+    height: 1em;
+    margin-right: 0.5em;
+    vertical-align: bottom;
+}
+
+.container-1 {
+    position: relative;
+    /* width: 1147px;  */
+    /* height: 100px; */
+    /* margin:100px;*/
+    padding: 50px;
+}
+
+.grid-1 {
+    float: left;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.logo-wrapper {
+    background: #fff;
+    padding: 100px 0 58px;
+}
+
+#logo {
+    background: transparent;
+    border: 0;
+    /* font-size: 100%; */
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    vertical-align: baseline;
+}
+
+img {
+    font-size: 0;
+    line-height: 0;
+    vertical-align: top;
+
+}
+
+.grid-2 {
+
+    padding: 38px 0 0;
+}
+
+.title-1 {
+    /* float:right; */
+    background-color: #bd7474;
+    text-align:center;
+    margin-left:800px;
+    margin-top: 80px;
+    padding: 1em;
+    text-transform: uppercase;
+    color: #63701e;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+/* .btn a {
+    margin-left: 375px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    line-height: 22px;
+    background: #c0b167;
+    padding: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+} */
+
+.footer-top-section-1 {
+    margin-top: 350px;
+    background: #4c0808;
+    /* padding: 11px; */
+}
+#follow-up-title  {
+    overflow: hidden;
+}
+
+#follow-up-title h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #7a7a7a;
+    float: left;
+    margin-left: 300px;
+    /* padding:12px; */
+}
+
+.container-2 {
+    position: relative;
+    width: 1147px;
+    height: 100px;
+    /* margin:100px; */
+    /* padding: 20px; */
+}
+
+i {
+    /* display: inline-block; */
+    /* width: 100%; */
+    margin-top: 20px;
+    padding: 10px;
+    float:right;
+    font-size: 35px;
+    line-height: 43px;
+    color: #fff;
+}
+
+
+#navbar {
+    padding: 2em;
+    position: relative;
+    display: block;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+button {
+	/* width: 60%; */
+	/* height: 40px; */
+	margin: 10px auto;
+	/* justify-content: center; */
+    padding: 1em;
+	display: block;
+	/* color: #fff; */
+	background: #726193;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: #888393;
+}

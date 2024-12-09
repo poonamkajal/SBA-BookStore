@@ -1,8 +1,8 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 :root {
     --background-color: #8e7373;
@@ -53,6 +53,7 @@ li {
 li a {
     display: block;
     color: white;
+    font-size:large;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -87,31 +88,11 @@ li a:hover:not(.active) {
     margin-right: 10px;
 }
 
-.logo-wrapper {
-    background: #fff;
-    padding: 100px 0 58px;
-}
-
-#logo {
-    background: transparent;
-    border: 0;
-    /* font-size: 100%; */
-    margin: 0;
-    outline: 0;
-    padding: 10px;
-    vertical-align: baseline;
-}
-
 img {
-    font-size: 0;
-    line-height: 0;
+    
     vertical-align: top;
+    margin-top: 80px;
 
-}
-
-.grid-2 {
-
-    padding: 38px 0 0;
 }
 
 .title-1 {
@@ -119,28 +100,17 @@ img {
     background-color: #bd7474;
     text-align:center;
     margin-left:800px;
-    margin-top: 80px;
+    margin-top: 225px;
     padding: 1em;
     text-transform: uppercase;
     color: #63701e;
     font-size: 30px;
-    line-height: 38px;
+    /* line-height: 38px; */
 }
 
-/* .btn a {
-    margin-left: 375px;
-    margin-top: 30px;
-    font-size: 20px;
-    color: white;
-    line-height: 22px;
-    background: #c0b167;
-    padding: 1em;
-    border-radius: 5px;
-    text-decoration: none;
-} */
 
 .footer-top-section-1 {
-    margin-top: 350px;
+    margin-top:200px;
     background: #4c0808;
     /* padding: 11px; */
 }
@@ -154,6 +124,7 @@ img {
     color: #7a7a7a;
     float: left;
     margin-left: 300px;
+    margin-top: 20px;
     /* padding:12px; */
 }
 
@@ -208,3 +179,37 @@ button {
 button:hover{
 	background: #888393;
 }
+
+/* .logo-wrapper {
+    background: #fff;
+    padding: 100px 0 58px;
+} */
+
+/* #logo {
+    background: transparent;
+    border: 0;
+    /* font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    vertical-align: baseline;
+} */
+
+
+
+/* .grid-2 {
+
+    padding: 38px 0 0;
+} */
+
+/* .btn a {
+    margin-left: 375px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    line-height: 22px;
+    background: #c0b167;
+    padding: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+} */
